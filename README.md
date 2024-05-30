@@ -4,7 +4,7 @@ This is a minimal example repository to demonstrate an issue with vitest mocking
 
 ## To reproduce lowercase drive issue:
 
-**NOTE** Make sure to run these steps on a Windows machine.
+**NOTE** Make sure to run these steps on a Windows machine in a command prompt. Command prompt recommended because depending on the version of Powershell, Powershell might normalize the directory name including the drive letter, which results in not being able to reproduce this issue.
 
 1. Clone this repository anywhere on your local machine
 2. Navigate to the directory this project was cloned on, making sure to use an absolute path that contains the **lowercase** `c:/` drive letter.
